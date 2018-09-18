@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Microposts</title>
+    <!-- Bootstrap and FontAwesome CSS -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/sandstone/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+            <a href="#" class="navbar-brand"><h3>Dudu's Front-End Blog JS</h3></a>
+    </nav>
+
+    <!-- Post Form Container-->
+    <div class="container postsContainer">
+        <div class="row mb-5">
+            <!-- Post Form -->
+            <div class="col-12 mx-auto">
+                <div class="card card-body card-form">
+                    <h1 class="text-center mb-2">Bem vindo ao Blog do Dudu</h1>
+                    <p class="lead">Diga o que se passa nessa cabecinha?</p>
+                    <div class="form-group">
+                        <input class="form-control" type="text" id="title" placeholder="Título">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="body" cols="30" rows="5" placeholder="Conteúdo"></textarea>
+                    </div>
+                    <!-- ID for Editing -->
+                    <input type="hidden" id="id" value="">
+                    <button class="post-submit btn btn-primary btn-block">Postar!</button>
+                    <span class="form-end"></span>
+                </div>
+            </div>
+            <!-- End of Post Form -->
+        </div>
+
+        <!-- Posts Div -->
+        <div class="mb-5" id="posts"></div>
+    </div>
+    <!-- End of Post Form Container -->
+
+    <footer class="mt-5 p-3 text-center bg-dark">Dudu's Blog &copy;</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./build/bundle.js"></script>
+</body>
+</html>

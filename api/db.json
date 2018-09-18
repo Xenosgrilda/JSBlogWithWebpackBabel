@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post One",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, fugit!"
+    },
+    {
+      "id": 2,
+      "title": "Post Two",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, fugit!"
+    },
+    {
+      "id": 3,
+      "title": "Post Three",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, fugit!"
+    },
+    {
+      "title": "O Roninho é um garoto Legal",
+      "body": "To attach an event handler to a specific element, you have to use the addEventListener() method.\n\nThis method is used to attach an event handler to a specified element in a way that doesn’t overwrite other present event handlers.\n\nMultiple event handlers may be applied to a single element, i.e. two click events assigned to an element.\n\nAny DOM object may be assigned an event handler, which includes not only HTML elements, but, for example, the window itself as well.\n\nThe method addEventListener() can make it easier to control the way an event reacts to bubbling.",
+      "id": 4
+    },
+    {
+      "title": "Post Three",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, fugit!",
+      "id": 5
+    },
+    {
+      "title": "Testing",
+      "body": "Opa Fion",
+      "id": 6
+    },
+    {
+      "title": "Post One",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, fugit!",
+      "id": 7
+    }
+  ]
+}
