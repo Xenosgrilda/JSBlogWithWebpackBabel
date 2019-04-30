@@ -1,16 +1,18 @@
-import { http } from './http';
-import { ui }   from './ui';
+import '../static/main.css'
+
+import { http } from './helpers/http';
+import { ui }   from './helpers/ui';
 
 // <!----- EVENT LISTENERS ------>
-// Get posts on DOM Load
 document.addEventListener('DOMContentLoaded', getPosts);
-// Listen for Submit
+// Materialize Initializers
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('#postBody').characterCounter();
+    updateTextFields();
+});
 ui.postBtn.addEventListener('click', submitPost);
-// Listen for Delete
 ui.post.addEventListener('click', deletePost);
-// Listen for Edit State
 ui.post.addEventListener('click', enableEdit);
-// Using event delegation because post-cancel btn is not add when the dom is loaded
 ui.cardForm.addEventListener('click', cancelEdit);
 
 

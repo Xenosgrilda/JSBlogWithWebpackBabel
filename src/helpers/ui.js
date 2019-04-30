@@ -1,13 +1,11 @@
 class UI {
     constructor(){
         this.post       = document.querySelector('#posts');
-        this.postBtn    = document.querySelector('.post-submit')
+        this.postBtn    = document.querySelector('#post-submit');
         this.titleInput = document.querySelector('#title');
         this.bodyInput  = document.querySelector('#body');
         this.idInput    = document.querySelector('#id');
-        this.postSubmit = document.querySelector('#post-submit');
         this.cardForm   = document.querySelector('.card-form');
-        this.forState   = 'add';
     }
 
     // <!------- METHODS ------->

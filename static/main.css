@@ -1,0 +1,38 @@
+.fa-eraser{
+    color: rgba(207, 100, 100, 0.877);
+}
+
+.fa-edit{
+    color: rgba(231, 207, 129, 0.877);
+}
+
+/* Navbar */
+.brand-logo{
+    margin-left: 15px;
+}
+
+li > form > .input-field {
+    position: relative;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content{
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+}
+
+/* Card */
+.card-title{
+    font-size: 3em !important;
+    font-weight: bold !important;
+}
+
+.card{
+    margin-top: 100px;
+}
